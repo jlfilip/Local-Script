@@ -1,0 +1,53 @@
+--- localscript ---
+
+'localscript' is a Google Chrome extension that allows you to execute Javascript directly on a page of your choice, without having to use the browser console.
+
+File saves trigger an extention and window refresh for the tab you're using localscript with.
+
+This was a tool I created while writing some Javascript to manipulate Anaplan models. 
+
+It has increased the efficiency of my workflow by a non-negligable amount while reducing my headache significantly.
+
+--- INSTALLATION INSTRUCTIONS ---
+
+1. Download or clone all files to the folder you would like your script to live
+
+2. Open Google Chrome
+
+3. Navigate to chrome://extensions
+
+4. Enable Developer mode
+
+5. Click 'Load unpacked'
+
+6. Select the local folder from step 1
+
+--- FIRST USAGE INSTRUCTIONS ---
+
+1. Navigate to the web page you would like to modify
+
+2. Click the 'ls' extension icon at the top right of the browser window
+
+3. Bring the mouse cursor over 'This Can Read and Change Site Data'
+
+4. Choose 'When You Click the Extension'
+
+--- GENERAL INSTRUCTIONS ---
+
+1. Navigate to the web page you would like to modify
+
+2. Click the 'ls' extension icon at the top right of the browser window
+
+3. Open your preferred text editor (Ex: Sublime Text) and open the ~/chrome-localscript/prod/ directory
+
+4. Open 'localscript.js', put your code in the file and save it. Upon save, the extension will detect that there has been a change and reload the extension and page.
+
+5. See your changes live on the page. 
+
+--- OTHER INFORMATION ---
+
+1. In ~/chrome-localscript/dev/ there is a placeholder file 'localdev.js' where you can stage code or save snippets for later.
+
+2. Works anywhere Google Chrome works (Windows / Mac / Linux)
+
+3. Support: feel free to email me at justin@filip.link

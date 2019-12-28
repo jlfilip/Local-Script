@@ -1,0 +1,26 @@
+{
+      "name": "localscript",
+      "version": "1.0",
+      "manifest_version": 2,
+      "permissions": [
+        "tabs"],
+      "background": {
+        "scripts": ["/application/reloader.js"],
+        "persistent": true
+      },
+      "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["/prod/localscript.js"]
+        }
+      ],
+      "icons": {
+         "128": "/application/ls.png"
+         }
+    }
+
+
+
+
