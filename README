@@ -1,14 +1,10 @@
---- localscript ---
+Local Script
 
-'localscript' is a Google Chrome extension that allows you to execute Javascript directly on a page of your choice, without having to use the browser console.
+Execute locally hosted JavaScript on a Chrome browser tab of your choice. Any saved changes to your locally stored script file trigger a browser tab reload where the extension is enabled.
 
-File saves trigger an extention and window refresh for the tab you're using localscript with.
+---
 
-This was a tool I created while writing some Javascript to manipulate Anaplan models. 
-
-It has increased the efficiency of my workflow by a non-negligable amount while reducing my headache significantly.
-
---- INSTALLATION INSTRUCTIONS ---
+INSTALLATION INSTRUCTIONS
 
 1. Download or clone all files to the folder you would like your script to live
 
@@ -22,7 +18,9 @@ It has increased the efficiency of my workflow by a non-negligable amount while 
 
 6. Select the local folder from step 1
 
---- FIRST USAGE INSTRUCTIONS ---
+---
+
+FIRST USAGE INSTRUCTIONS
 
 1. Navigate to the web page you would like to modify
 
@@ -32,7 +30,9 @@ It has increased the efficiency of my workflow by a non-negligable amount while 
 
 4. Choose 'When You Click the Extension'
 
---- GENERAL INSTRUCTIONS ---
+---
+
+GENERAL INSTRUCTIONS
 
 1. Navigate to the web page you would like to modify
 
@@ -44,7 +44,9 @@ It has increased the efficiency of my workflow by a non-negligable amount while 
 
 5. See your changes live on the page. 
 
---- OTHER INFORMATION ---
+---
+
+OTHER INFORMATION
 
 1. In ~/chrome-localscript/dev/ there is a placeholder file 'localdev.js' where you can stage code or save snippets for later.
 
@@ -52,5 +54,4 @@ It has increased the efficiency of my workflow by a non-negligable amount while 
 
 3. Support: feel free to email me at justin@filipdigital.com
 
-Donate: 
-If you find this tool useful, please consider donating: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VM5CCZSFQB59S
+4. Donate: If you find this tool useful, please consider donating: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VM5CCZSFQB59S
